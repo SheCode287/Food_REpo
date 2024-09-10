@@ -1,0 +1,72 @@
+// nesting styles
+// adding element attribute to styling
+
+
+
+// ._listContainer{
+//     min-height: 60vh;
+//     padding: 1.75rem;
+// }
+
+
+
+    .foodContainer{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        
+        
+
+    .foodList{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        align-items:flex-start;
+        
+       
+    }
+       
+
+        button{
+          
+            font-size: 0.8rem;
+            background-color:$clear-button-color;
+            padding:0.1rem;
+            margin:0.8rem ;
+            @include mq(768px){
+                padding: 0 0.5rem;
+            }
+
+        }
+ 
+    }
+
+    .food-item{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 1rem;
+        padding:4px ;
+        }
+    
+    
+        input{
+            text-align: center;
+            width: 2.5rem;
+            min-width: 48px;
+            height: 2.5rem;
+            min-height: 48px;
+            cursor: pointer;
+            margin-right: 1.5rem;}
+           
+            
+            
+    
+    
+       
+    
+       
+     
+
+
+

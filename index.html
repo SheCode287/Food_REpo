@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/style.css" />
+    <script src="./main.js" type="module"></script>
+    <title>Repo</title>
+</head>
+<body>
+        <section class="newItemEntry">
+          <form id="foodEntryForm">
+              <!-- adding a picture -->
+            <input
+            type="file"
+            id="picture"
+            autocomplete="off"
+            placeholder="URL"/>
+          <!-- autocomplete attribute gives users suggested input -->
+           <!-- adding a name  -->
+            <input
+            type="text"
+            id="name"
+            autocomplete="off"
+            placeholder="Food Name"/>
+            <!-- dropdown categories -->
+            <select id="category">
+              <option value="">Select Category</option>
+              <option value="Fruits">Fruit</option>
+              <option value="Vegetable">Vegetable</option>
+              <option value="Pastry">Meat</option>
+              <option value="Dairy">Dairy</option>
+              <option value="Meat">Fruit</option>
+              <option value="Junk">Vegetable</option>
+            </select>
+            <button
+             type="submit" id="submitBtn">Add Food</button>
+          </form>
+        </section>
+    
+        <section class="foodContainer">
+          <div id="foodList">
+            
+          </div>
+          <button id="clearCheckedItems">Delete Checked Items</button>
+          <button id="clearAllItems">Clear All</button>
+        </section>
+      </body>
+    </html>
+    
+
+</body>
+</html>
